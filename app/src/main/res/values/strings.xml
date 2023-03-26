@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">TripInfo</string>
+    <string name="main_title">해외 정보 알아보자!</string>
+    <string name="main_hint01">국가를 입력해주세요.</string>
+    <string name="search">검색</string>
+    <string name="basicInfo">기본 정보</string>
+    <string name="notice">공지 사항</string>
+    <string name="immigrationRequirement">입국 허가 요건</string>
+    <string name="warning">여행 경보</string>
+    <string name="warningAdjust">여행 경보 조정</string>
+    <string name="specialWarning">특별 여행 주의보</string>
+    <string name="safetyInfo">안전 소식</string>
+    <string name="safetyNotice">안전 공지</string>
+    <string name="accident">사건 사고</string>
+    <string name="countryTel">현지 연락처</string>
+    <string name="continent">대륙</string>
+    <string name="countryName">국가명</string>
+    <string name="bego">비고</string>
+    <string name="noData">내용이 없습니다.</string>
+    <string name="warningLevel">경보 단계</string>
+    <string name="region">지역</string>
+    <string name="mapDownload">지도 다운로드</string>
+    <string name="ok">확인</string>
+    <string name="more">자세히 보기</string>
+    <string name="again">잠시 후 다시 시도해주세요.</string>
+
+
+    <string name="goHomePage">외교부 홈페이지 가기</string>
+    <string name="searchCountry">나라 검색하기</string>
+    <string name="text01">※ 빈칸으로 검색 시 전체 국가가 나옵니다.</string>
+    <string name="whatIsWarning">여행 경보 란?</string>
+    <string name="haveYn">여권 소지 여부</string>
+    <string name="visaYn01">일반여권 입국 허가 요건 여부</string>
+    <string name="visaCn01">일반 여권 입국 허가 요건 내용</string>
+    <string name="visaYn02">관용여권 입국 허가 요건 여부</string>
+    <string name="visaCn02">관용여권 입국 허가 요건 내용</string>
+    <string name="visaYv03">외교관여권 입국 허가 요건 여부</string>
+    <string name="visaCn03">외교관여권 입국 허가 요건 내용</string>
+    <string name="entryCn">무비자 입국 근거 내용</string>
+    <string name="downloadGo">첨부파일 다운로드 받기</string>
+    <string name="specialRemark">특별 여행 주의보 철수 권고 비고</string>
+</resources>
