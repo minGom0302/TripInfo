@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".activity.SafetyNoticeActivity">
 
     <TextView
@@ -40,13 +41,23 @@
             android:textStyle="bold" />
     </FrameLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/safetyNt_adRv"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
         android:layout_weight="1"
         android:background="@drawable/frame_normal"
         android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
 
 </LinearLayout>

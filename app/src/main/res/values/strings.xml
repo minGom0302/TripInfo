@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TripInfo</string>
+    <string name="app_name">해외 안전 정보</string>
     <string name="main_title">해외 정보 알아보자!</string>
     <string name="main_hint01">국가를 입력해주세요.</string>
     <string name="search">검색</string>

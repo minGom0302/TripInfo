@@ -65,6 +65,7 @@ public class SelectActivity extends AppCompatActivity {
     private void changeLayout(int cnd, AppCompatImageButton btn) {
         if(btn != null) {
             setEnabled(false, btn);
+            nowBtn = btn;
         }
 
         Intent intent = null;

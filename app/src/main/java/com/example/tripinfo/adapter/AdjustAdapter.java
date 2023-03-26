@@ -74,7 +74,7 @@ public class AdjustAdapter extends RecyclerView.Adapter<AdjustAdapter.MyViewHold
             holder.downloadBtn.setVisibility(View.VISIBLE);
             holder.downloadBtn.setOnClickListener(v -> downloadBC.URLDownloading(url, path));
         } else {
-            holder.downloadBtn.setVisibility(View.GONE);
+            holder.downloadBtn.setVisibility(View.INVISIBLE);
         }
     }
 

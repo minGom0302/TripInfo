@@ -1,50 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".activity.EarlyActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-        android:text="@string/main_title"
-        android:textColor="@color/light_blue01"
-        android:textSize="30sp" />
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/early_searchCountryBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:paddingVertical="15dp"
-        android:text="@string/searchCountry"
-        android:textSize="16sp"
-        android:textColor="@color/white"
-        android:background="@drawable/frame_btn_event02"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/early_noticeBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="15dp"
-        android:layout_marginHorizontal="20dp"
-        android:paddingVertical="15dp"
-        android:text="@string/notice"
-        android:textSize="16sp"
-        android:textColor="@color/white"
-        android:background="@drawable/frame_btn_event02"/>
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/early_homePageBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:paddingVertical="15dp"
-        android:text="@string/goHomePage"
-        android:textSize="16sp"
-        android:textColor="@color/white"
-        android:background="@drawable/frame_btn_event02"/>
+        android:layout_gravity="center"
+        android:orientation="vertical">
 
-</LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:text="@string/main_title"
+            android:textColor="@color/light_blue01"
+            android:textSize="30sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/early_searchCountryBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:text="@string/searchCountry"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/frame_btn_event02"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/early_noticeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:text="@string/notice"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/frame_btn_event02"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/early_homePageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:paddingVertical="15dp"
+            android:text="@string/goHomePage"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/frame_btn_event02"/>
+
+    </LinearLayout>
+
+</FrameLayout>
