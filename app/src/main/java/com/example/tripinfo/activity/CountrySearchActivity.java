@@ -87,7 +87,9 @@ public class CountrySearchActivity extends AppCompatActivity implements MainCont
             countryRv.setAdapter(adapter);
             searchBtn.setEnabled(true);
         } else {
-            Toast.makeText(this, "인터넷 연결을 확인해주시기 바랍니다.", Toast.LENGTH_SHORT).show();
+            runOnUiThread(() ->
+                Toast.makeText(this, "인터넷 연결을 확인해주시기 바랍니다.", Toast.LENGTH_SHORT).show()
+            );
         }
     }
 
